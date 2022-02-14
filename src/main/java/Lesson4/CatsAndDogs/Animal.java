@@ -1,6 +1,6 @@
 package Lesson4.CatsAndDogs;
 
-public class Animal {
+public abstract class  Animal {
     protected String name;
     protected int runStamina;
     protected int swimStamina;
