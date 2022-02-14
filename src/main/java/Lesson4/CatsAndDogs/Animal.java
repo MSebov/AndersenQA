@@ -1,6 +1,6 @@
 package Lesson4.CatsAndDogs;
 
-public abstract class  Animal {
+public abstract class Animal {
     protected String name;
     protected int runStamina;
     protected int swimStamina;
@@ -18,11 +18,10 @@ public abstract class  Animal {
         return count;
     }
 
-    protected void run(int distance) {
-        //System.out.println("Animal run " + distance + " meters");
-    }
+    protected abstract void run(int distance);
 
-    protected void swim(int distance) {
-         //System.out.println("Animal swim " + distance + " meters");
-    }
+
+    protected abstract void swim(int distance);
+
+
 }

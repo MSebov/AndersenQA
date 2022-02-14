@@ -22,7 +22,6 @@ public class Dog extends Animal {
         } else {
             System.out.println("Dog " + name + " run " + distance + " meters");
         }
-        super.run(distance);
     }
 
     @Override
@@ -32,6 +31,5 @@ public class Dog extends Animal {
         } else {
             System.out.println("Dog " + name + " swim " + distance + " meters");
         }
-        super.swim(distance);
     }
 }

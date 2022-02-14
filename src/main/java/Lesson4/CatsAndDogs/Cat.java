@@ -9,6 +9,7 @@ public class Cat extends Animal {
         super(runStamina, swimStamina, name);
         count++;
     }
+
     public static int getCount() {
         return count;
     }
@@ -20,12 +21,12 @@ public class Cat extends Animal {
         } else {
             System.out.println("Cat " + name + " run " + distance + " meters");
         }
-        super.run(distance);
+
     }
 
     @Override
     public void swim(int distance) {
         System.out.println("Cat " + name + " cant swim");
-        super.swim(distance);
+
     }
 }
